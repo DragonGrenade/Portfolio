@@ -1,0 +1,35 @@
+
+/* ================= HERO ================= */
+.hero-section {
+  min-height: 60vh;
+  background: linear-gradient(to bottom, #FF5F01 0%, #0D0301 100%);
+}
+
+
+/* ABOUT HERO OVERRIDE *//* ================= HERO TEXT ================= */
+.about-hero-text {
+  text-align: center;
+  padding: 140px 40px 80px;
+}
+
+.about-hero-text h1 {
+  font-family: 'Bebas Neue';
+  font-size: 9vw;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  margin-top: 16px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.hero-divider {
+  width: 120px;
+  height: 1px;
+  background: #fff;
+  margin: 32px auto 0;
+  opacity: 0.6;
+}

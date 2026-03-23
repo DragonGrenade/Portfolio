@@ -1,0 +1,74 @@
+
+/* ================= ABOUT SECTION ================= */
+.about-section {
+  background: #ccc;
+  padding: 180px 60px;
+}
+
+.about-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 120px;
+  align-items: center;
+}
+
+/* ================= TEXT ================= */
+.about-eyebrow {
+  font-size: 11px;
+  letter-spacing: 3px;
+  opacity: 0.6;
+}
+
+.about-text h2 {
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  margin: 16px 0 24px;
+}
+
+.about-lead {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.about-text p {
+  font-size: 14px;
+  line-height: 1.9;
+  opacity: 0.9;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+
+/* ================= STATS ================= */
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.stat {
+  border: 1px solid rgba(255,255,255,0.35);
+  padding: 40px 32px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.35s ease, border-color 0.35s ease;
+}
+
+.stat:hover {
+  transform: translateY(-6px);
+  border-color: #fff;
+}
+
+.stat span {
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  display: block;
+}
+
+.stat p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  opacity: 0.85;
+}
