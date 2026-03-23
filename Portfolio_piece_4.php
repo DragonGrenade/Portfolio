@@ -82,7 +82,7 @@ include $langFile;
   </div>
 
 
-  <a href="http://localhost/LIQUOR%20STORE%20WEBSITE/index.php" target="_blank" class="preview-button">
+  <a href="includes/Liquor" target="_blank" class="preview-button">
   PREVIEW WEBSITE
   <img src="images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
 </a>
