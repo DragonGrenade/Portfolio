@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Greek&display=swap'); /* Greek-friendly font */
+
+/* ============================= */
+/* Base Portfolio Section Styles */
+/* ============================= */
+
+.portfolio_section {
+  padding: clamp(1rem, 5vw, 3rem);
+}
+
+.portfolio_section h1 {
+  font-family: Oswald, sans-serif;
+  text-align: left;
+  font-size: clamp(1.6rem, 2.8vw, 2.8rem);
+  margin-bottom: 20px;
+}
+
+.flex_container_portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio_item {
+  flex: 1 1 min(30%, 400px);
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio_item a {
+  text-decoration: none;
+}
+
+.portfolio_item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-size: contain;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio_item img:hover {
+  opacity: 0.6;
+}
+
+.portfolio_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(0.9rem, 1.3vw, 1.8rem);
+  font-weight: 500;
+  color: #000;
+}
+
+.full_width_item {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* SEE MORE BUTTON */
+.see_more_wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#seeMoreBtn,
+.see_more_button {
+  display: inline-block;
+  padding: 14px 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(0.9rem, 1.3vw, 1.2rem);
+  font-weight: 600;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#seeMoreBtn:hover,
+.see_more_button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* Responsive Layouts */
+/* ============================= */
+
+/* Tablet layout */
+@media (min-width: 810px) {
+  .flex_container_portfolio {
+    display: flex;
+    flex-wrap: wrap; /* allow wrapping */
+    gap: 20px;
+  }
+
+  .portfolio_item {
+    flex: 1 1 calc(30% - 13.33px); /* 3 items per row, accounting for gap */
+  }
+
+  /* Make 4th item full width */
+  .flex_container_portfolio .portfolio_item:nth-child(4) {
+    flex: 1 1 100%;
+  }
+
+  .portfolio_section h1 {
+    font-size: clamp(2.4rem, 3vw, 3.5rem);
+  }
+
+  .portfolio_footer {
+    font-size: clamp(1.1rem, 1vw, 1.6rem);
+  }
+
+  #seeMoreBtn,
+  .see_more_button {
+    font-size: clamp(1.1rem, 1vw, 1.2rem);
+    padding: 18px 36px;
+  }
+
+}
+
+/* Desktop layout */
+@media (min-width: 1200px) {
+  .flex_container_portfolio {
+    display: flex;
+    flex-wrap: wrap; /* allow wrapping */
+    gap: 20px;
+  }
+
+  .portfolio_item {
+    flex: 1 1 calc(30% - 13.33px); /* 3 items per row, accounting for gap */
+  }
+
+  /* Make 4th item full width */
+  .flex_container_portfolio .portfolio_item:nth-child(4) {
+    flex: 1 1 100%;
+  }
+
+  .portfolio_section h1 {
+    font-size: clamp(2.4rem, 3vw, 3.5rem);
+  }
+
+  .portfolio_footer {
+    font-size: clamp(1.1rem, 1vw, 1.6rem);
+  }
+
+  #seeMoreBtn,
+  .see_more_button {
+    font-size: clamp(1.1rem, 1vw, 1.2rem);
+    padding: 18px 36px;
+  }
+}
+
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .flex_container_portfolio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio_section h1 {
+    text-align: center;
+  }
+
+  .portfolio_item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  #seeMoreBtn {
+    padding: 14px 20px;
+  }
+}
+
+/* ============================= */
+/* Greek-specific adjustments */
+/* ============================= */
+
+html[lang="gr"] .portfolio_section h1 {
+  font-size: clamp(1.4rem, 2.5vw, 2.4rem);
+  line-height: 1.2;
+  font-family: 'Noto Sans Greek', Oswald, sans-serif;
+}
+
+html[lang="gr"] .portfolio_footer {
+  font-size: clamp(0.8rem, 1.2vw, 1.4rem);
+  line-height: 1.3;
+  font-weight: 600;
+  font-family: 'Noto Sans Greek', Oswald, sans-serif;
+}
+
+html[lang="gr"] #seeMoreBtn,
+html[lang="gr"] .see_more_button {
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  font-family: 'Noto Sans Greek', Oswald, sans-serif;
+}

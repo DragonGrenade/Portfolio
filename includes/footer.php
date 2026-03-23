@@ -1,0 +1,300 @@
+<section class="footer_section">
+  <div class="footer_container">
+    <div class="footer_first_block">
+  <h3 class="footer_paragraph">Crafting web experiences dedicated to consumer needs.</h3>
+  
+
+  <ul class="footer_links">
+  <li><a href="">Insights</a></li>
+  <li><a href="https://www.figma.com/proto/5laVDHdJrzEdOIKlfs4Oys/PORTFOLIO-SAMPLES--1?page-id=0%3A1&node-id=1-677&viewport=52%2C20%2C0.05&t=450hEdOdhSob4Uu3-1&scaling=scale-down-width&content-scaling=fixed">Web Design Samples</a></li>
+  <li><a href="">Privacy Policy</a></li>
+  </ul>
+</div>
+
+<div class="footer_second_block">
+<iframe src="https://dragongrenade.github.io/web-credit-badge-/" style="border: 1px solid #fff ;
+border-radius: 16px; padding: 12px 12px; width: 20%; display: inline; height: 47px; overflow: hidden;"></iframe>
+</div>
+ 
+  </div>
+  
+  
+</section>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Greek&display=swap');
+
+/* =============================== */
+/* SHARED VARIABLES + BASE STYLES */
+/* =============================== */
+:root {
+  --section-padding: clamp(20px, 4vw, 50px);
+}
+
+.content {
+  flex: 1;
+  padding: 0 var(--section-padding);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =============================== */
+/* LEFT COLUMN (Links)             */
+/* =============================== */
+.links-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.links-column p {
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: #111;
+  transition: color 0.3s ease;
+}
+
+.links-column p:hover {
+  text-decoration: underline;
+  color: #c94c05;
+}
+
+/* =============================== */
+/* RIGHT COLUMN (Collaborate + Cases) */
+/* =============================== */
+.collaborate-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* === Collaborate Box === */
+.collaborate-box {
+  border: 1px solid #ddd;
+  max-width: 360px;
+  width: 100%;
+}
+
+.collaborate-header {
+  background: linear-gradient(135deg, #c94c05, #a93226);
+  color: #fff;
+  padding: 20px;
+}
+
+.collaborate-header h2 {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collaborate-header h2 img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.collaborate-header p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.collaborate-header ul {
+  margin: 10px 0 0 18px;
+  padding: 0;
+}
+
+.collaborate-header li {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+/* === Case Studies === */
+.case-studies {
+  background: #fff;
+  color: #111;
+  padding: 20px;
+  border: 2px solid #c94c05;
+  max-width: 360px;
+  width: 100%;
+}
+
+.case-studies h3 {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0 0 10px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.case-studies h3 img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.case-studies ul {
+  margin: 0 0 10px 18px;
+  padding: 0;
+}
+
+.case-studies li {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.case-studies p {
+  margin: 8px 0;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+/* =============================== */
+/* FOOTER SECTION                 */
+/* =============================== */
+footer {
+  border-top: 1px solid #111;
+  text-align: center;
+  padding: 40px var(--section-padding);
+  margin-top: 100px;
+  background-color: #fafafa;
+}
+
+.local-time {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+.clock {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.clock .time-box {
+  border: 1px solid #111;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.social {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.social a {
+  text-decoration: none;
+  color: #111;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #c94c05;
+}
+
+.tagline {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #666;
+}
+
+/* =============================== */
+/* RESPONSIVE ADJUSTMENTS         */
+/* =============================== */
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 var(--section-padding);
+  }
+
+  .links-column,
+  .collaborate-column {
+    width: 100%;
+  }
+
+  footer {
+    padding: 30px var(--section-padding);
+  }
+
+  .clock .time-box {
+    font-size: 20px;
+    padding: 8px 14px;
+  }
+}
+
+/* Tablet (≥810px) */
+@media (min-width: 810px) and (max-width: 1199px) {
+  .content {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .collaborate-box,
+  .case-studies {
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 40px var(--section-padding);
+  }
+}
+
+/* Desktop (≥1200px) */
+@media (min-width: 1200px) {
+  .content {
+    gap: 80px;
+  }
+
+  .collaborate-column {
+    flex: 1;
+  }
+}
+
+/* =============================== */
+/* GREEK LANGUAGE STYLES          */
+/* =============================== */
+html[lang="gr"] .collaborate-header h2,
+html[lang="gr"] .case-studies h3,
+html[lang="gr"] .case-studies p,
+html[lang="gr"] .case-studies li,
+html[lang="gr"] .links-column p,
+html[lang="gr"] .tagline,
+html[lang="gr"] .local-time {
+  font-family: 'Noto Sans Greek', 'Poppins', sans-serif;
+  line-height: 1.4;
+  font-size: smaller;
+}
+
+</style>

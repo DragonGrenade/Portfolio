@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Greek&display=swap');
+
+/* ====================================== */
+/* === SHARED PADDING VARIABLE ========== */
+/* ====================================== */
+:root {
+  --section-padding: clamp(20px, 4vw, 50px);
+}
+
+/* ====================================== */
+/* === IMAGES SECTION =================== */
+/* ====================================== */
+section.images_section {
+  padding: 0 var(--section-padding);
+  margin-top: 80px;
+}
+
+.flex-box_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ====================================== */
+/* === BRIEF SECTION ==================== */
+/* ====================================== */
+section.brief {
+  padding: 0 var(--section-padding);
+  margin-top: 40px;
+}
+
+.brief .flex-box_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brief-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.label {
+  font-weight: 500;
+  color: #000;
+  font-size: 1.2em;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.value {
+  color: #333;
+  font-size: 1.2em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 300;
+}
+
+.brief-right {
+  flex: 2;
+  line-height: 1.6;
+  font-size: 1.1em;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+.preview-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 45px;
+  border: 9px solid rgba(197, 197, 197, 0.3);
+  background-color: transparent;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Bebas Neue', sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.preview-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* ====================================== */
+/* === CHALLENGES SECTION =============== */
+/* ====================================== */
+.challenges-section {
+  margin-top: 150px;
+  padding: 0 var(--section-padding);
+  background-color: #fff;
+}
+
+.main-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.flex-box_container_challenges {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.challenges-left,
+.challenges-right {
+  flex: 1;
+  max-width: 100%;
+}
+
+.challenge {
+  margin-bottom: 30px;
+}
+
+.challenge h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.challenge p {
+  position: relative;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#challenge_note {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.challenge p::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* ====================================== */
+/* === RESPONSIVE ADJUSTMENTS =========== */
+/* ====================================== */
+
+/* Mobile */
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+  }
+
+  .brief .flex-box_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .brief-left,
+  .brief-right {
+    max-width: 100%;
+  }
+
+  .flex-box_container_challenges {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 810px) {
+  /* 2 images per row */
+  .image-container {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  /* Brief side-by-side */
+  .brief .flex-box_container {
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .brief-left {
+    flex: 1 1 35%;
+  }
+
+  .brief-right {
+    flex: 1 1 65%;
+  }
+
+  /* Challenges side-by-side */
+  .flex-box_container_challenges {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  /* 3 images per row, 4th full width */
+  .image-container {
+    flex: 1 1 calc(33.33% - 13.33px);
+  }
+
+  .image-container:nth-child(4) {
+    flex: 1 1 100%;
+  }
+
+  /* Brief layout */
+  .brief-left {
+    flex: 1 1 25%;
+  }
+
+  .brief-right {
+    flex: 2 1 70%;
+  }
+
+  /* Challenges flexible */
+  .flex-box_container_challenges {
+    flex-wrap: wrap;
+  }
+}
+
+/* ====================================== */
+/* === GREEK FONT ADJUSTMENTS =========== */
+/* ====================================== */
+html[lang="gr"] body {
+  font-family: 'Noto Sans Greek', Poppins, sans-serif;
+}
+
+html[lang="gr"] .challenge h3,
+html[lang="gr"] .challenge p,
+html[lang="gr"] #challenge_note,
+html[lang="gr"] .brief-right,
+html[lang="gr"] .brief-left {
+  font-family: 'Noto Sans Greek', Poppins, sans-serif;
+}

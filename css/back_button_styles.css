@@ -1,0 +1,28 @@
+.back-button {
+    position: fixed;
+    top: 3rem;
+    left: 0; 
+    z-index: 1000;
+
+    width: 50px; /* adjust to desired button size */
+    height: 50px;
+
+    background-color: transparent;
+    background-image: url('../images/home_icon.svg'); /* relative to CSS file */
+    background-size: 50% 50%; /* scale icon */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-top: 5px solid rgba(0,0,0, 0.6);
+    border-right: 5px solid rgba(0,0,0, 0.6);
+    border-bottom: 5px solid rgba(0,0,0, 0.6);
+
+    padding: 0.3rem 0.4rem;
+    border-radius: 0 45px 45px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease-in;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+}

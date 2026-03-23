@@ -1,0 +1,105 @@
+.offers-section {
+  padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 5vw, 3rem);
+  background-color: #f9f9f9;
+}
+
+.offers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.offer-card {
+  flex: 1 1 300px;
+  background-color: #fff;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* New label before title */
+.offer-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #c94c05;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.offer-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.09em;
+  margin-bottom: 1rem;
+}
+
+.offer-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.offer-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+}
+
+.offer-benefits li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+  color: #333;
+}
+
+.offer-benefits li strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.read-more-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #c94c05;
+  border: 2px solid #c94c05;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.read-more-btn:hover {
+  background-color: #c94c05;
+  color: #fff;
+}
+
+
+html[lang="gr"] .offer-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+}
+
+html[lang="gr"] .offer-description,
+html[lang="gr"] .offer-label,
+html[lang="gr"] .offer-benefits li {
+    font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+    line-height: 1.4;
+}
+
+html[lang="gr"] .read-more-btn {
+    font-size: clamp(0.85rem, 1.2vw, 1rem);
+}

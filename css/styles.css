@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Poppins, sans-serif;
+    padding:0;
+    margin: 0;
+    color: #000;
+  }
+
+/* Import Greek font */
+
+
+/* Greek text adjustments */
+html[lang="gr"] .brief-right h2.main-heading,
+html[lang="gr"] .challenges-section h2.main-heading,
+html[lang="gr"] .challenge h3,
+html[lang="gr"] .brief-right p,
+html[lang="gr"] .challenge p,
+html[lang="gr"] .brief-right ul li {
+    font-family: 'Noto Sans Greek', Poppins, sans-serif;
+    line-height: 1.4;
+}
+
+html[lang="gr"] .brief-right h2.main-heading,
+html[lang="gr"] .challenges-section h2.main-heading {
+    font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+}
+
+html[lang="gr"] .challenge h3 {
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+html[lang="gr"] .brief-right p,
+html[lang="gr"] .challenge p,
+html[lang="gr"] .brief-right ul li {
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
+}
+
+html[lang="gr"] .preview-button {
+  font-family: 'Noto Sans Greek', Poppins, sans-serif;
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  font-weight: 600;
+}
+
+/* Flex adjustments for long Greek text */
+html[lang="gr"] .flex-box_container,
+html[lang="gr"] .flex-box_container_challenges {
+    flex-wrap: wrap;
+}
+
+/* Back button adjustments */
+html[lang="gr"] .back-button {
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    padding: 6px 12px;
+}
+
+/* Challenge note class */
+html[lang="gr"] .challenge-note {
+    font-weight: 300;
+    font-size: 14px;
+}
