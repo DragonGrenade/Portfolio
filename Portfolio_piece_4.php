@@ -82,8 +82,8 @@ include $langFile;
   </div>
 
 
-  <a href="includes/Liquor" target="_blank" class="preview-button">
-  PREVIEW WEBSITE
+  <a href="../includes/Liquor" target="_blank" class="preview-button">
+  PREVIEW WEBSIT
   <img src="images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
 </a>
 
