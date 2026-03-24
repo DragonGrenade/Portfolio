@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CINEMA THEATER</title>
 
-    <link rel="stylesheet" href="css\images_styles.css">
-    <link rel="stylesheet" href="css\contact_styles.css">
-    <link rel="stylesheet" href="css\back_button_styles.css">
-    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\images_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\contact_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\back_button_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\footer.css">
 
-<link rel="stylesheet" href="css\styles.css">
+<link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\styles.css">
 
 
-    <script src="javascript/email_script.js" async></script>
+    <script src="https://chriswebdesign.wasmer.app/javascript/email_script.js" async></script>
 
 
 </head>
 <body>
-<a href="/Portfolio%20Website" class="back-button"></a>
+<a href="https://chriswebdesign.wasmer.app/Portfolio%20Website" class="back-button"></a>
 
 <section class="images_section">
     <div class="flex-box_container">
       <div class="image-container">
-        <img src="images/" alt="Image 1">
+        <img src="https://chriswebdesign.wasmer.app/images/" alt="Image 1">
       </div>
       <div class="image-container">
-        <img src="images/" alt="Image 2">
+        <img src="https://chriswebdesign.wasmer.app/images/" alt="Image 2">
       </div>
     </div>
 </section>
@@ -56,7 +56,7 @@
 
   <a href="" class="preview-button">
   PREVIEW WEBSITE
-  <img src="images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
+  <img src="https://chriswebdesign.wasmer.app/images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
 </a>
 
 </div>
@@ -167,12 +167,12 @@
 
 
 
-<?php include("includes/contact_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/contact_include.php"); ?>
 
 
 
-<?php include("includes\include_footer_02.php"); ?>
-<script src="javascript/clock.js" async></script>
+<?php include("https://chriswebdesign.wasmer.app/includes\include_footer_02.php"); ?>
+<script src="https://chriswebdesign.wasmer.app/javascript/clock.js" async></script>
 
 </body>
 </html>
