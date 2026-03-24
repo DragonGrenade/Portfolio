@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FAQ</title>
 
-  <link rel="stylesheet" href="css/top_bar_styles.css">
-  <link rel="stylesheet" href="css/nav_styles.css">
-  <link rel="stylesheet" href="css/general_styles.css">
-  <link rel="stylesheet" href="css/footer_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/top_bar_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/nav_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/general_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/footer_styles.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -21,10 +21,10 @@
 <body>
 
 <!-- ================= TOP BAR ================= -->
-<?php include("includes/top_bar.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/top_bar.php"); ?>
 
 <!-- ================= HERO / NAV ================= -->
-<?php include("includes/nav.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/nav.php"); ?>
 
 <!-- HERO TITLE -->
 <section class="faq-hero">
@@ -64,7 +64,7 @@
 </section>
 
 <!-- ================= FOOTER ================= -->
-<?php include("includes/footer.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/footer.php"); ?>
 
 </body>
 </html>
