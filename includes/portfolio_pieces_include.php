@@ -5,8 +5,8 @@
   <div class="flex_container_portfolio">
 
     <div class="portfolio_item">
-      <a href="Portfolio_piece_1.php">
-        <img src="images/Piece_1.png" alt="Project 1" />
+      <a href="https://chriswebdesign.wasmer.app/Portfolio_piece_1.php">
+        <img src="https://chriswebdesign.wasmer.app/images/Piece_1.png" alt="Project 1" />
         <div class="portfolio_footer">
           <span><?= $lang['portfolio_item_1_tag1']; ?></span>
           <span><?= $lang['portfolio_item_1_tag2']; ?></span>
@@ -15,8 +15,8 @@
     </div>
 
     <div class="portfolio_item">
-      <a href="Portfolio_piece_2.php">
-        <img src="images/Piece_2.png" alt="Project 2" />
+      <a href="https://chriswebdesign.wasmer.app/Portfolio_piece_2.php">
+        <img src="https://chriswebdesign.wasmer.app/images/Piece_2.png" alt="Project 2" />
         <div class="portfolio_footer">
           <span><?= $lang['portfolio_item_2_tag1']; ?></span>
           <span><?= $lang['portfolio_item_2_tag2']; ?></span>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="portfolio_item">
-      <a href="Portfolio_piece_3.php">
+      <a href="https://chriswebdesign.wasmer.app/Portfolio_piece_3.php">
         <img src="images/Piece_3.png" alt="Project 3" />
         <div class="portfolio_footer">
           <span><?= $lang['portfolio_item_3_tag1']; ?></span>
@@ -38,8 +38,8 @@
 
   <div class="flex_container_portfolio single_row">
     <div class="portfolio_item full_width_item">
-      <a href="Portfolio_piece_4.php">
-        <img src="images/Piece_4.png" alt="Project 4" />
+      <a href="https://chriswebdesign.wasmer.app/Portfolio_piece_4.php">
+        <img src="https://chriswebdesign.wasmer.app/images/Piece_4.png" alt="Project 4" />
         <div class="portfolio_footer">
           <span><?= $lang['portfolio_item_4_tag1']; ?></span>
           <span><?= $lang['portfolio_item_4_tag2']; ?></span>
@@ -50,7 +50,7 @@
 
   <!-- SEE MORE BUTTON -->
   <div class="see_more_wrapper">
-    <a href="7.php" id="seeMoreBtn" class="see_more_button"><?= $lang['see_more_btn']; ?></a>
+    <a href="https://chriswebdesign.wasmer.app/7.php" id="seeMoreBtn" class="see_more_button"><?= $lang['see_more_btn']; ?></a>
   </div>
 
 </section>
