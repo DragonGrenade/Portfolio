@@ -1,5 +1,5 @@
 <header class="site-header">
-    <div class="brand"><a href="http://192.168.1.2/Portfolio%20Website">CHRISDESIGNWEB</a></div>
+    <div class="brand"><a href="https://chriswebdesign.wasmer.app/">CHRISDESIGNWEB</a></div>
     <div class="hamburger" id="hamburger">
       <span></span>
     </div>
@@ -9,8 +9,8 @@
 
   <aside class="side-nav" id="sideNav">
   <ul id="navLinks">
-    <li><a href="http://192.168.1.2/Portfolio%20Website/7.php">Projects</a></li>
-    <li><a href="http://192.168.1.2/Portfolio%20Website/include_bg_page.php">Insights</a></li>
+    <li><a href="https://chriswebdesign.wasmer.app/7.php">Projects</a></li>
+    <li><a href="https://chriswebdesign.wasmer.app/include_bg_page.php">Insights</a></li>
     
     <li class="lang-toggle-item">
   <a href="?toggle_lang=1" class="lang-toggle">
