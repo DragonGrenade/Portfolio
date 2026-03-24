@@ -9,9 +9,9 @@
       <h3 class="blog-title">How Slow Kills Sales</h3>
       <h4 class="blog-subtitle">Why a 3-second delay can lose you real money.</h4>
       <ul class="blog-points">
-        <li><img src="images/Vector_approve.svg" alt=""> Site speed isn’t just tech — it’s business.</li>
-        <li><img src="images/Vector_approve.svg" alt=""> Mobile users bounce fast.</li>
-        <li><img src="images/Vector_approve.svg" alt=""> Slow sites = Google penalty.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Site speed isn’t just tech — it’s business.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Mobile users bounce fast.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Slow sites = Google penalty.</li>
       </ul>
       <a href="blog-post1.html" class="read-more">Read More</a>
     </article>
@@ -35,10 +35,10 @@
       <h3 class="blog-title">The Homepage Trap</h3>
       <h4 class="blog-subtitle">Why your homepage isn’t your most important page.</h4>
       <ul class="blog-points">
-        <li><img src="images/Vector_approve.svg" alt=""> Most traffic lands somewhere else.</li>
-        <li><img src="images/Vector_approve.svg" alt=""> Homepages are often just noise — the real gold lies elsewhere.</li>
-        <li><img src="images/Vector_approve.svg" alt=""> Design for intent, not just looks.</li>
-        <li><img src="images/Vector_approve.svg" alt=""> Turn every page into a sales machine.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Most traffic lands somewhere else.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Homepages are often just noise — the real gold lies elsewhere.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Design for intent, not just looks.</li>
+        <li><img src="https://chriswebdesign.wasmer.app/images/Vector_approve.svg" alt=""> Turn every page into a sales machine.</li>
       </ul>
       <a href="include_bg_page.php" class="read-more">Read More</a>
     </article>
