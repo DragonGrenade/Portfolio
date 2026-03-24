@@ -18,7 +18,7 @@
 
       <p class="offer-description"><?= $lang['offer1_desc3']; ?></p>
 
-      <a href="4.php" class="read-more-btn"><?= $lang['offer1_btn']; ?></a>
+      <a href="https://chriswebdesign.wasmer.app/4.php" class="read-more-btn"><?= $lang['offer1_btn']; ?></a>
     </div>
 
     <!-- Offer 2: No website yet -->
