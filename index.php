@@ -50,7 +50,7 @@ include $langFile;
     <!-- JS -->
     
 
-        <script src="https://chriswebdesign.wasmer.app//javascript/email_script.js" async></script>
+        <script src="https://chriswebdesign.wasmer.app/javascript/email_script.js" async></script>
 
 </head>
 <body>
