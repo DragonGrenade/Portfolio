@@ -45,28 +45,28 @@ include $langFile;
     <title>CINEMA THEATER</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Greek&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css\images_styles.css">
-    <link rel="stylesheet" href="css\contact_styles.css">
-    <link rel="stylesheet" href="css\back_button_styles.css">
-    <link rel="stylesheet" href="css\footer.css">
-<link rel="stylesheet" href="css\nav_styles.css">
-<link rel="stylesheet" href="css\styles.css">
-<link rel="stylesheet" href="css/lang_button_styles.css">
-    <script src="javascript/email_script.js" async></script>
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\images_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\contact_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\back_button_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\footer.css">
+<link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\nav_styles.css">
+<link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\styles.css">
+<link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/lang_button_styles.css">
+    <script src="https://chriswebdesign.wasmer.app/javascript/email_script.js" async></script>
 
 
 </head>
 <body>
-<?php include("includes/nav_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/nav_include.php"); ?>
 
 
 <section class="images_section">
     <div class="flex-box_container">
       <div class="image-container">
-        <img src="images/Image_1.png" alt="<?= $lang['image_alt_1']; ?>">
+        <img src="https://chriswebdesign.wasmer.app/images/Image_1.png" alt="<?= $lang['image_alt_1']; ?>">
       </div>
       <div class="image-container">
-        <img src="images/Image_2.png" alt="<?= $lang['image_alt_2']; ?>">
+        <img src="https://chriswebdesign.wasmer.app/images/Image_2.png" alt="<?= $lang['image_alt_2']; ?>">
       </div>
     </div>
 </section>
@@ -89,7 +89,7 @@ include $langFile;
 
       <a href="https://kiyopractice.webflow.io/" class="preview-button">
         <?= $lang['brief_preview_btn']; ?>
-        <img src="images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
+        <img src="https://chriswebdesign.wasmer.app/images/arrow_button.svg" alt="Arrow Icon" class="arrow-icon">
       </a>
     </div>
 
@@ -137,13 +137,13 @@ include $langFile;
 </section>
 
 
-<?php include("includes/contact_include.php"); ?>
-<?php include("includes/include_footer_02.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/contact_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/include_footer_02.php"); ?>
 
 
-<script src="javascript\nav_script.js" async></script>
-<script src="javascript/lang_script.js" async></script>
-<script src="javascript/clock.js" async></script>
+<script src="https://chriswebdesign.wasmer.app/javascript\nav_script.js" async></script>
+<script src="https://chriswebdesign.wasmer.app/javascript/lang_script.js" async></script>
+<script src="https://chriswebdesign.wasmer.app/javascript/clock.js" async></script>
 </body>
 
 </html>
