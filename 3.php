@@ -203,7 +203,7 @@
         <div class="collaborate-header">
           <h2>
             COLLABORATE WITH ME
-            <img src="images/container_arrow_white.svg" alt="arrow">
+            <img src="https://chriswebdesign.wasmer.app/images/container_arrow_white.svg" alt="arrow">
           </h2>
           <p><b>For freelancers, creatives, or marketers</b></p>
           <p><b>Why join my circle?</b></p>
@@ -220,7 +220,7 @@
         <div class="case-studies">
           <h3>
             FREE PROJECTS / CASE STUDIES
-            <img src="images/container_arrow_black.svg" alt="arrow">
+            <img src="https://chriswebdesign.wasmer.app/images/container_arrow_black.svg" alt="arrow">
           </h3>
           <p>→ A few times a month, I take on select projects at no cost in exchange for:</p>
           <ul>
