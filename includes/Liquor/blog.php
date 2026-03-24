@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog</title>
 
-  <link rel="stylesheet" href="css/top_bar_styles.css">
-  <link rel="stylesheet" href="css/nav_styles.css">
-  <link rel="stylesheet" href="css/general_styles.css">
-  <link rel="stylesheet" href="css/footer_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/top_bar_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/nav_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/general_styles.css">
+  <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/footer_styles.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -21,10 +21,10 @@
 <body>
 
 <!-- ================= TOP BAR ================= -->
-<?php include("includes/top_bar.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/top_bar.php"); ?>
 
 <!-- ================= HERO / NAV ================= -->
-<?php include("includes/nav.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/nav.php"); ?>
 
 <!-- ================= HERO ================= -->
 <section class="blog-hero">
@@ -47,7 +47,7 @@
           <h2>The Art of Craft Spirits</h2>
           <p>From grain to glass — what truly defines premium liquor.</p>
         </div>
-        <a href="includes\blogposts\blog1.php" class="cta-box">Read More</a>
+        <a href="https://chriswebdesign.wasmer.app/includes\blogposts\blog1.php" class="cta-box">Read More</a>
       </div>
     </div>
 
@@ -61,7 +61,7 @@
             <h3>The Art of Timeless Design</h3>
             <p>How we merge elegance with function to create products that last.</p>
           </div>
-          <a href="includes\blogposts\blog2.php" class="cta-box">Read More</a>
+          <a href="https://chriswebdesign.wasmer.app/includes\blogposts\blog2.php" class="cta-box">Read More</a>
         </div>
       </div>
 
@@ -72,7 +72,7 @@
             <h3>Behind the Scenes</h3>
             <p>A look into our workshop and the meticulous process behind every piece.</p>
           </div>
-          <a href="includes\blogposts\blog3.php" class="cta-box">Read More</a>
+          <a href="https://chriswebdesign.wasmer.app/includes\blogposts\blog3.php" class="cta-box">Read More</a>
         </div>
       </div>
 
@@ -83,7 +83,7 @@
             <h3>Quality Over Quantity</h3>
             <p>Why we prioritize craftsmanship over mass production in all our creations.</p>
           </div>
-          <a href="includes\blogposts\blog4.php" class="cta-box">Read More</a>
+          <a href="https://chriswebdesign.wasmer.app/includes\blogposts\blog4.php" class="cta-box">Read More</a>
         </div>
       </div>
 
@@ -93,7 +93,7 @@
 </section>
 
 <!-- ================= FOOTER ================= -->
-<?php include("includes/footer.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/footer.php"); ?>
 
 <!-- ================= JS FOR ANIMATION ================= -->
 <script>
