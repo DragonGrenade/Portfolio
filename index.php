@@ -36,13 +36,13 @@ include $langFile;
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Greek&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/portfolio_pieces_styles.css">
-    <link rel="stylesheet" href="css/contact_styles.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/offers_section_styles.css">
-    <link rel="stylesheet" href="css/services_section_01.css">
-    <link rel="stylesheet" href="css/lang_button_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/portfolio_pieces_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/contact_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/footer.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/offers_section_styles.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/services_section_01.css">
+    <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/lang_button_styles.css">
 
 
         <link rel="stylesheet" href="css\nav_styles.css">
