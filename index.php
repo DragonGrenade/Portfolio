@@ -15,7 +15,7 @@ if (isset($_GET['toggle_lang'])) {
     header("Pragma: no-cache");
     header("Expires: 0");
 
-    header("Location: index.php"); // reload page
+    header("Location: https://chriswebdesign.wasmer.app/index.php"); // reload page
     exit();
 }
 
@@ -45,28 +45,28 @@ include $langFile;
     <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css/lang_button_styles.css">
 
 
-        <link rel="stylesheet" href="css\nav_styles.css">
+        <link rel="stylesheet" href="https://chriswebdesign.wasmer.app/css\nav_styles.css">
 
     <!-- JS -->
     
 
-        <script src="javascript/email_script.js" async></script>
+        <script src="https://chriswebdesign.wasmer.app//javascript/email_script.js" async></script>
 
 </head>
 <body>
-<?php include("includes/nav_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/nav_include.php"); ?>
 
-<?php include("includes/services_include.php"); ?>
-<?php include("includes/portfolio_pieces_include.php"); ?>
-<?php include("includes/PortfolioProj4/includes/include_bg_section_01.php"); ?>
-<?php include("includes/include_offers.php"); ?>
-<?php include("includes/include_bg_section_01.php"); ?>
-<?php include("includes/contact_include.php"); ?>
-<?php include("includes/include_footer_02.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/services_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/portfolio_pieces_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/PortfolioProj4/includes/include_bg_section_01.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/include_offers.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/include_bg_section_01.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/contact_include.php"); ?>
+<?php include("https://chriswebdesign.wasmer.app/includes/include_footer_02.php"); ?>
 
 
-<script src="javascript\nav_script.js" async></script>
+<script src="https://chriswebdesign.wasmer.app/javascript\nav_script.js" async></script>
 
-<script src="javascript/clock.js" async></script>
+<script src="https://chriswebdesign.wasmer.app/javascript/clock.js" async></script>
 </body>
 </html>
